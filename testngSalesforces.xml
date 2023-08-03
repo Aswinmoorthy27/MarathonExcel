@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="2">
+  <test thread-count="5" name="Test">
+  <parameter name="URL"
+		value="https://login.salesforce.com/"></parameter>
+  <parameter name="UName" value="hari.radhakrishnan@qeagle.com"></parameter>
+	<parameter name="PWD" value="Leaf$1234"></parameter>		
+    <classes>
+      <class name="Marathon.SalesforceTC001"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
